@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f9f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #4a90e2, #357ab8);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  padding: 80px 20px;
+  text-align: center;
+  color: #222;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #4a90e2;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #357ab8;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 35px;
+  color: #4a90e2;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  flex: 1 1 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+ol li {
+  margin-bottom: 18px;
+}
+
+button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #357ab8;
+}
+
+.quiz {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.about {
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  border-radius: 12px;
+  padding: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #eee;
+  margin-top: 40px;
+  font-size: 0.95em;
+}
